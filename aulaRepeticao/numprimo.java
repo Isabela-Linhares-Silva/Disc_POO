@@ -1,4 +1,4 @@
-package aulaReeticao;
+package aulaRepeticao;
 
 import java.util.Scanner;
 

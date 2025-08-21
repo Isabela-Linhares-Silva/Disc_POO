@@ -1,4 +1,4 @@
-package aulaReeticao;
+package aulaRepeticao;
 
 public class multiplos {
     public static void main(String[] args) {
