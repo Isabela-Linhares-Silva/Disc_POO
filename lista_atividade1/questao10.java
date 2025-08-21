@@ -28,7 +28,7 @@ public class questao10 {
         }
 
         // Relatório
-        System.out.println("\n--- Relatorio---");
+        System.out.println("\n--- Relatorio ---");
         for (int i = 0; i < 3; i++) {
             System.out.printf("Vendedor: %d | Vendas: %.2f | Comissao: %.2f%n",i, vendas[i], comissao[i]);
         }
