@@ -23,6 +23,13 @@ public class questao3 {
                 
         }
         System.out.println("Parabens! Voce acertou o valor!");
+
+        String nome, nome2 ;
+        nome = sc.nextLine();
+        nome2 = sc.nextLine();
+
+        nome.concat(nome2);
+        System.out.println(nome);
         sc.close();
     }
 }
