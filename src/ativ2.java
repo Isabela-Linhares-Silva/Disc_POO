@@ -2,12 +2,8 @@ package src;
 
 public class ativ2 {
     public static void main(String[] args) {
-        AulaEstudante aluno1 = new AulaEstudante();
-        aluno1.nome = "Isabela";
-        aluno1.idade = 20;
-        aluno1.matricula = "088.025"; 
-        aluno1.CPF = "123.456.789-00";
-        AulaEstudante aluno2 = new AulaEstudante();
+        AulaEstudante aluno1 = new AulaEstudante("Isabela", 20,"088.025","123.456.789-00";);
+        AulaEstudante aluno2 = new AulaEstudante();// construtores padrão(vazios)
         aluno2.nome= "Joao";
         aluno2.idade = 20;
         aluno2.matricula = "095.458";
