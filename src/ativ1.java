@@ -34,6 +34,13 @@ public class ativ1 {
         System.out.println(venda1.getValorVenda());
 
         venda1.exibeCasa();
+        System.out.println("--------------------------------------");
+
+        System.out.println(aluguel1.comissaoVendedor()); 
+
+
+
+        aluguel1.exibeCasa();
     }
     
 }

@@ -15,4 +15,13 @@ public class VendaCasa extends Casa{
     public void setValorVenda(float valorVenda){
         this.valorVenda = valorVenda;
     }
+
+    public float comissaoVendedor(){
+        return valorVenda * 0.06f;
+    }
+
+    public void exibeCasa(){
+        super.exibeCasa();
+        System.out.println("Valor da venda: R$ "+valorVenda);
+    }
 }

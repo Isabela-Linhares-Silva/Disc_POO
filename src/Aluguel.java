@@ -15,4 +15,13 @@ public class Aluguel extends Casa{
     public void setValorAluguel(float valorAluguel){
         this.valorAluguel = valorAluguel;
     }
+
+    public float comissaoVendedor(){//sobreescrita
+        return valorAluguel;
+    }
+
+    public void exibeCasa(){
+        super.exibeCasa();//exibe oq ue ja tem no 'pai' e sobre escreve o valor do aluguel
+        System.out.println("Valor do aluguel: R$ "+valorAluguel);
+    }
 }

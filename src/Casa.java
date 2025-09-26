@@ -20,7 +20,7 @@ public class Casa {
         System.out.println("Endereco: "+ endereco );
         System.out.println("Numero de portas: "+numPortas);
         System.out.println("Numero de janelas: "+numJanelas);   
-        System.out.println("--------------------------------");
+
     }
 
     public void addPorta(){
@@ -42,6 +42,10 @@ public class Casa {
 
     public void setNumPortas(int numPortas) {
         this.numPortas = numPortas;
+    }
+
+    public float comissaoVendedor(){
+        return 0;
     }
 
 }
