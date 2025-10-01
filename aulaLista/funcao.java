@@ -6,7 +6,7 @@ public class funcao {
     public static void main(String[] args) {
         System.out.println(somar(5, 2));
         subtrair(10, 7);
-        multiplicar();// ver como resolve
+        System.out.println(multiplicar());// ver como resolve
         
     }
     
